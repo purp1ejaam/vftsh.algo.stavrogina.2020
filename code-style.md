@@ -30,4 +30,4 @@ __*C++ ~~vftsh2020 Ivan Povarnityn~~ Ninel' code-style:*__
 
 Если я  заливаю в репозиторий программу, в которой нужно доделать/поправить какой-то кусок, то вставляю в нужное место кода комментарий
 
-![A](https://sun9-75.userapi.com/impg/pb1JVeItAYqHamUGJ_yi85f16pp_7t71iwWLEA/RSa3WubUE4E.jpg?size=530x412&quality=96&proxy=1&sign=d55c775c622a1663d807582db573c4a6 "пам-пам")
+![A](https://sun9-26.userapi.com/impg/onrY3FSSepZDTYNTAFmzONavUmbxxokWPw0G2w/tWZQ3lCDJAk.jpg?size=453x340&quality=96&proxy=1&sign=9522a6ab9474f5e5acb375e7272662e5 " "я доделаю честно" ")
