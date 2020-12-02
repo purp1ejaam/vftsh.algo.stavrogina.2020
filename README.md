@@ -2,7 +2,7 @@
 __*кот на аве - +5 баллов к домашке*__
 
 ## Что тут есть ##
-**[Тут есть мой кодстайл](https://bitbucket.org/blvckwizrd/vftsh.algo.stavrogina.2020/src/master/code-style.md)**
+**[Тут есть мой КОТстайл](https://bitbucket.org/blvckwizrd/vftsh.algo.stavrogina.2020/src/master/code-style.md)**
 
 **Домашка ** ~~*надеюсь она мне когда-нибудь пригодится*~~ **по папкам:**
 
