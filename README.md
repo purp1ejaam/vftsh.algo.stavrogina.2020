@@ -11,4 +11,4 @@ __*котик на аве - +5 баллов к домашке*__
 + homework#3 - *Дейкстра и Форд-Беллман*
  
  
- ![Alt text](https://sun9-44.userapi.com/impg/4XGrJSC32HephTOzwwXEnBSRbTkBaafBYti3ZA/LW3qKxgAKPc.jpg?size=594x446&quality=96&proxy=1&sign=c32e5c17249fbcda0cab9a7592349830 "работать быстро")
+ ![Alt text](https://sun9-58.userapi.com/impg/iSQZ1_tpLSr-yoSpaMkOMlCdt8gArq55c_UmPA/hF2Lv4lRGBo.jpg?size=594x446&quality=96&proxy=1&sign=d988d2d9c86258ff4c7038b0656aee9b "работать быстро")
