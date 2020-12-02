@@ -1,5 +1,5 @@
 # README #
-__*котик на аве - +5 баллов к домашке*__
+__*кiт на аве - +5 баллов к домашке*__
 
 ## Что тут есть ##
 **[Тут есть мой кодстайл](https://bitbucket.org/blvckwizrd/vftsh.algo.stavrogina.2020/src/master/code-style.md)**
