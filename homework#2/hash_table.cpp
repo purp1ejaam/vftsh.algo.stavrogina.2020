@@ -26,7 +26,7 @@ private:
 				return int((hash1(key) + i * hash2(key)) % table.size()); //возвращаем позицию если тут пусто
 		}
 		resize(table.size()); //увеличиваем вдвое размер таблицы если нет свободных позиций
-		HashPush(key); //снова пытаемся найти позицию для элемента
+		hashPush(key); //снова пытаемся найти позицию для элемента
 	}
 	int hashFind(int key, int el) {
 		for (int i = 0; i < table.size(); ++i) {
@@ -41,15 +41,15 @@ private:
 public:
 	void Push(int key, int element) {
 		if (table.empty())
-		    FirstFilling();
-		int position = HashPush(key);
+		    firstFilling();
+		int position = hashPush(key);
 		table[position].first = true;
 		table[position].second = element;
 	}
 	bool Find(int key, int element) {
 		if (table.empty())
 		     return false;
-		if (HashFind(key, element) == NULL)
+		if (hashFind(key, element) == NULL)
 			return false;
 		else
 			return true;
@@ -58,7 +58,7 @@ public:
 		if (table.empty())
 			std::cout << "there's no elements";
 		else {
-			int position = HashFind(key, element);
+			int position = hashFind(key, element);
 			if (position != NULL) {
 				table[position].first = false;
 				table[position].second = 0; // этот шаг можно пропустить
