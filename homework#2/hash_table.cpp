@@ -5,7 +5,7 @@
 class THashTable {
 private:
 	std::vector<std::pair<bool, double>> table; //сначала надо заполнить вектор!
-	void FirstFilling() {
+	void firstFilling() {
 		resize(128);
 		
 	}
@@ -20,7 +20,7 @@ private:
 	int hash2(int key) {
 		return key % (table.size() - 1) + 1; //вторая хэш функция
 	}
-	int HashPush(int key) { //возвращаем позицию для вставки элемента
+	int hashPush(int key) { //возвращаем позицию для вставки элемента
 		for (int i = 0; i < table.size(); ++i) {
 			if (!table[int((hash1(key) + i * hash2(key)) % table.size())].first)
 				return int((hash1(key) + i * hash2(key)) % table.size()); //возвращаем позицию если тут пусто
@@ -28,7 +28,7 @@ private:
 		resize(table.size()); //увеличиваем вдвое размер таблицы если нет свободных позиций
 		HashPush(key); //снова пытаемся найти позицию для элемента
 	}
-	int HashFind(int key, int el) {
+	int hashFind(int key, int el) {
 		for (int i = 0; i < table.size(); ++i) {
 			if (table[int((hash1(key) + i * hash2(key)) % table.size())].first &&
 				table[int((hash1(key) + i * hash2(key)) % table.size())].second == el)
